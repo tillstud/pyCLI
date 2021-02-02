@@ -21,8 +21,8 @@
 1. create a virtual environment
 `python -m venv .venv`
 2. activate the virtual environment
-- Windows: `.venv\Scripts\activate`
 - Linux: `source ./.venv/bin/activate`
+- Windows: `.venv\Scripts\activate`
 > To deactivate the venv type `deactivate`
 3. update pip
 `python -m pip install --upgrade pip`
