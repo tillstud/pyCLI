@@ -1,11 +1,11 @@
-[![GitHub license](https://img.shields.io/github/license/tillstud/spotirss)](https://github.com/tillstud/spotirss/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/tillstud/spotirss)](https://github.com/tillstud/spotirss/graphs/contributors)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/tillstud/spotirss)](https://github.com/tillstud/spotirss/pulls)
-[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/tillstud/spotirss)](https://github.com/tillstud/spotirss/pulls)
-[![GitHub issues](https://img.shields.io/github/issues/tillstud/spotirss)](https://github.com/tillstud/spotirss/issues)
-[![GitHub issues-closed](https://img.shields.io/github/issues-closed/tillstud/spotirss)](https://github.com/tillstud/spotirss/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub license](https://img.shields.io/github/license/tillstud/python-sample-project-cli)](https://github.com/tillstud/python-sample-project-cli/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/tillstud/python-sample-project-cli)](https://github.com/tillstud/python-sample-project-cli/graphs/contributors)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/tillstud/python-sample-project-cli)](https://github.com/tillstud/python-sample-project-cli/pulls)
+[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/tillstud/python-sample-project-cli)](https://github.com/tillstud/python-sample-project-cli/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/tillstud/python-sample-project-cli)](https://github.com/tillstud/python-sample-project-cli/issues)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/tillstud/python-sample-project-cli)](https://github.com/tillstud/python-sample-project-cli/issues?q=is%3Aissue+is%3Aclosed)
 
-# spotirss
+# tool-name
 {{long desc.}}
 
 ## Background
@@ -13,11 +13,11 @@
 
 # Installation
 1. clone the repo
-`git clone https://github.com/tillstud/spotirss.git`
+`git clone https://github.com/tillstud/python-sample-project-cli.git`
 2. install the dependencies
 `pip install -r requirements.txt`
 
-## For development
+## Development
 1. create a virtual environment
 `python -m venv .venv`
 2. activate the virtual environment
@@ -30,6 +30,7 @@
 `pip install -r requirements-dev.txt`
 5. add the env variables to your venv
 `export $(xargs < .env)`
+6. update the versions in `.pre-commit-config.yml` and install them with `pre-commit install`
 
 ### Optional
 1. Use [pyenv](https://github.com/pyenv/pyenv) to manage your python versions
