@@ -19,7 +19,7 @@
 
 ## Development
 1. create a virtual environment
-`python -m venv .venv`
+`python -m venv venv/`
 2. activate the virtual environment
 - Linux: `source ./.venv/bin/activate`
 - Windows: `.venv\Scripts\activate`
