@@ -1,0 +1,2 @@
+class pyCLIError(Exception):
+    pass

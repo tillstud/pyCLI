@@ -1,6 +1,3 @@
-black
-flake8
-isort
 bandit
 safety
 pre-commit
