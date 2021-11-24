@@ -7,7 +7,7 @@
 
 # pyCLI
 
-`pyCLI`, is a template project to structure your next CLI!
+`pyCLI` is a template project to structure your next CLI!
 
 ## Usage
 
@@ -53,9 +53,9 @@ pip install pyCLI
 
 ## Contribute
 
-Please do contribute! Issues and pull requests are welcome.
+Please do contribute! Issues and pull requests are very welcome!
 
-Thank you for your help improving this CLI template!
+Thank you already in advance for your help improving this CLI template!
 
 ### Development
 
@@ -72,7 +72,7 @@ python3 -m venv venv
 source ./venv/bin/activate
 ```
 
-> To deactivate the venv type `deactivate` in the shell
+> To deactivate the venv type `deactivate` in your shell
 
 3. Install the package in editable mode with the dev requirements
 
@@ -82,17 +82,17 @@ pip install -e .["dev"]
 
 > This will also install the related build and publish packages, not just the packages for development.
 
-4. Set your shell variables
-
-```bash
-export $(xargs < .env)
-```
-
-5. Update the versions in `.pre-commit-config.yml` and install them
+4. Update the versions in `.pre-commit-config.yml` and install the pre-commit script
 
 ```bash
 pre-commit autoupdate
 pre-commit install
+```
+
+5. Set your shell variables
+
+```bash
+export $(xargs < .env)
 ```
 
 #### Optional
