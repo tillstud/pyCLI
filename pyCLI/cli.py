@@ -38,6 +38,7 @@ from pyCLI.main import main
     envvar="PYCLI_MESSAGE",
     show_default=True,
 )
+
 def cli(
     verbose: bool,
     ca_bundle: str,
@@ -56,5 +57,5 @@ def cli(
         main(config)
     except pyCLIError as err:
         logger.error(str(err))
-    except Exception:
-        logger.error("An unexpected error occurred: " + repr(traceback.format_exc()))
+    except Exception as err:
+        logger.error(str(err))
