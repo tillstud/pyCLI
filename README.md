@@ -1,9 +1,7 @@
 [![GitHub license](https://img.shields.io/github/license/tillstud/pyCLI)](https://github.com/tillstud/pyCLI/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/tillstud/pyCLI)](https://github.com/tillstud/pyCLI/graphs/contributors)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/tillstud/pyCLI)](https://github.com/tillstud/pyCLI/pulls)
-[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/tillstud/pyCLI)](https://github.com/tillstud/pyCLI/pulls)
 [![GitHub issues](https://img.shields.io/github/issues/tillstud/pyCLI)](https://github.com/tillstud/pyCLI/issues)
-[![GitHub issues-closed](https://img.shields.io/github/issues-closed/tillstud/pyCLI)](https://github.com/tillstud/pyCLI/issues?q=is%3Aissue+is%3Aclosed)
 
 # pyCLI
 
