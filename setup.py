@@ -2,7 +2,7 @@ try:  # for pip >= 20.0.2
     from pip._internal.network.session import PipSession
     from pip._internal.req import parse_requirements
 except ImportError:  # for pip <= 20.0.2
-    from pip._internal.download import PipSession
+    from pip._internal.download import PipSession  # type: ignore
     from pip._internal.req import parse_requirements
 
 import os
@@ -12,7 +12,7 @@ from setuptools import find_packages, setup
 from pyCLI import __version__
 
 REQUIREMENTS = [
-    req.requirement if hasattr(req, "requirement") else str(req.req)
+    req.requirement if hasattr(req, "requirement") else str(req.req)  # type: ignore
     for req in parse_requirements(
         os.path.join(os.path.dirname(__file__), "requirements.txt"),
         session=PipSession(),
@@ -22,8 +22,11 @@ REQUIREMENTS = [
 EXTRAS_REQUIRE = {
     "build": ["wheel", "twine"],
     "lint": ["flake8", "black", "mypy", "isort", "rope"],
+    "sec": ["bandit", "safety", "pre-commit"],
 }
-EXTRAS_REQUIRE["dev"] = EXTRAS_REQUIRE["build"] + EXTRAS_REQUIRE["lint"]
+EXTRAS_REQUIRE["dev"] = (
+    EXTRAS_REQUIRE["build"] + EXTRAS_REQUIRE["lint"] + EXTRAS_REQUIRE["sec"]
+)
 
 URL = "https://github.com/tillstud/pyCLI"
 

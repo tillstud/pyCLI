@@ -37,7 +37,6 @@ from pyCLI.main import main
     envvar="PYCLI_MESSAGE",
     show_default=True,
 )
-
 def cli(
     verbose: bool,
     ca_bundle: str,
